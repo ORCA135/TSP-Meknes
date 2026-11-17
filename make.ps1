@@ -1,4 +1,4 @@
-﻿param (
+param (
     [string]$Target = "help",
     [string]$RepoUrl = ""
 )
