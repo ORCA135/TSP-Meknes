@@ -1,0 +1,42 @@
+id,name,category,latitude,longitude,address
+0,Entrepôt Central - Hub Logistique Hamria,Depot,33.8992,-5.5425,Avenue des F.A.R. près de la Gare Meknès Ville
+1,Bab Mansour el-Aleuj,Monument,33.8930,-5.5650,Place el-Hedim Médina
+2,Place el-Hedim,Place Publique,33.8936,-5.5644,Cœur historique Médina
+3,Médina - Souk Sebbat,Commerce,33.8948,-5.5638,Rue Souk Sebbat Médina
+4,Medersa Bou Inania,Culture,33.8942,-5.5649,Rue Najjarine Médina
+5,Musée Dar Jamaï,Musée,33.8939,-5.5658,Place el-Hedim Médina
+6,Mausolée Moulay Ismaïl,Monument,33.8906,-5.5621,Boulevard Moulay Ismaïl
+7,Hri Souani (Greniers Royaux),Historique,33.8828,-5.5562,Zone des Palais Royaux
+8,Bassin de l'Agdal (Sahrij Swani),Loisir,33.8835,-5.5548,Route du Bassin Agdal
+9,Avenue Mohammed V - Hamria,Centre Ville,33.8967,-5.5472,Avenue Mohammed V
+10,Gare Meknès Ville,Transport,33.8992,-5.5410,Place de la Gare Hamria
+11,Gare Meknès Amir Abdelkader,Transport,33.8924,-5.5398,Rue Amir Abdelkader
+12,Marché Central de Hamria,Commerce,33.8978,-5.5463,Boulevard Allal Ben Abdellah
+13,Hôtel Transatlantique,Hôtellerie,33.9015,-5.5532,Rue El Meriniyne
+14,Palais El Mansour,Historique,33.8885,-5.5582,Quartier Kasbah
+15,Bab el-Khemis,Monument,33.8980,-5.5710,Boulevard Circulaire Ouest
+16,Bab Berdaine,Monument,33.9012,-5.5684,Nord de la Médina
+17,Quartier Belle Vue,Résidentiel,33.9035,-5.5401,Avenue des Nations Unies
+18,Hôpital Sidi Saïd,Santé,33.8902,-5.5742,Avenue des Hôpitaux
+19,Hôpital Provincial Mohammed V,Santé,33.9051,-5.5358,Rue de l'Hôpital Belle Vue
+20,Institut Français de Meknès,Culture,33.8944,-5.5442,Rue de la Meuse Hamria
+21,Place de France,Place Publique,33.8962,-5.5488,Centre Hamria
+22,Cinéma Caméra - Rue de Paris,Culture,33.8955,-5.5460,Rue de Paris Hamria
+23,Quartier Plaisance,Résidentiel,33.8860,-5.5340,Boulevard Bir Anzarane
+24,Faculté des Sciences - UMI,Éducation,33.8790,-5.5510,Quartier Zitoune
+25,ENSAM Meknès,Éducation,33.8820,-5.5420,Marjane II Route d'Agouray
+26,EST Meknès,Éducation,33.8845,-5.5450,Km 5 Route d'Agouray
+27,Stade d'Honneur CODM,Sport,33.8895,-5.5365,Boulevard Hassan II
+28,Parc Nouara (Jardin de la Liberté),Espace Vert,33.8988,-5.5495,Avenue Moulay Youssef
+29,Centre Commercial Marjane,Commerce,33.8705,-5.5290,Route de Rabat
+30,Quartier Bssatne,Résidentiel,33.9110,-5.5460,Route de Sidi Kacem
+31,Quartier El Menzeh,Résidentiel,33.8912,-5.5285,Boulevard des F.A.R.
+32,Quartier Zehoua,Résidentiel,33.8765,-5.5380,Avenue Yacoub El Mansour
+33,Borj Belkari,Musée,33.8890,-5.5670,Remparts Sud Médina
+34,Hôpital Militaire Moulay Ismail,Santé,33.8970,-5.5560,Avenue de l'Hôpital Militaire
+35,Jardin Lahboul,Loisir,33.8985,-5.5620,Vallée Oued Boufekrane
+36,Quartier Toulal - Entrée Ouest,Logistique,33.8940,-5.5880,Route Nationale 6
+37,Kasbah des Heddawa,Historique,33.8975,-5.5665,Enceinte Ismaïlienne
+38,Bab Tizimi,Monument,33.9025,-5.5655,Avenue des Remparts Nord
+39,Quartier Sidi Bouzekri,Zone Commerciale,33.8720,-5.5180,Route de Fès
+40,Palais de Justice - Tribunal Hamria,Administration,33.8972,-5.5435,Boulevard Allal Ben Abdellah

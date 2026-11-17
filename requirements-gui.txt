@@ -1,0 +1,4 @@
+-r requirements.txt
+tkinterweb>=4.25.0
+tkintermapview>=1.32.0
+customtkinter>=6.0.0
