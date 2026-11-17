@@ -8,6 +8,8 @@ if "%TARGET%"=="help" (
     echo ======================================================================
     echo TSP MEKNES - Commandes disponibles ^(make.bat^)
     echo ======================================================================
+    echo   make deploy     : Genere le lien de deploiement Streamlit Cloud
+    echo   make link       : Affiche le lien web public actif
     echo   make install    : Installe les dependances
     echo   make test       : Execute la suite de tests
     echo   make run        : Lance l'application principale
@@ -15,6 +17,19 @@ if "%TARGET%"=="help" (
     echo   make run-web    : Lance le Dashboard Web Streamlit
     echo   make tunnel     : Expose l'application sur le Web public ^(HTTPS^)
     echo   make clean      : Nettoie les caches
+    echo ======================================================================
+    goto :eof
+)
+
+if "%TARGET%"=="deploy" (
+    .\.venv\Scripts\python deploy.py --push
+    goto :eof
+)
+
+if "%TARGET%"=="link" (
+    echo ======================================================================
+    echo LIEN WEB PUBLIC ACTIF :
+    echo https://997e4b1ca29acc.app.lhr.life
     echo ======================================================================
     goto :eof
 )

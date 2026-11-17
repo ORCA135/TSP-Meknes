@@ -6,12 +6,14 @@ PYTHON ?= python
 PIP ?= pip
 STREAMLIT ?= streamlit
 
-.PHONY: help install test run run-gui run-web tunnel clean
+.PHONY: help install test run run-gui run-web tunnel deploy link clean
 
 help:
 	@echo "======================================================================"
 	@echo "🚚 TSP MEKNÈS – Commandes disponibles via Makefile"
 	@echo "======================================================================"
+	@echo "  make deploy     : Génère le lien de déploiement Streamlit Cloud (1-Clic)"
+	@echo "  make link       : Affiche et ouvre le lien public en ligne de l'app"
 	@echo "  make install    : Installe toutes les dépendances (requirements.txt)"
 	@echo "  make test       : Exécute la suite complète de validation (6/6 tests)"
 	@echo "  make run        : Lance l'application principale (TP.py)"
@@ -19,6 +21,15 @@ help:
 	@echo "  make run-web    : Lance le Dashboard Web Streamlit (port 8501)"
 	@echo "  make tunnel     : Expose l'application sur le Web public (HTTPS)"
 	@echo "  make clean      : Supprime les caches temporaires et fichiers compilés"
+	@echo "======================================================================"
+
+deploy:
+	$(PYTHON) deploy.py --push
+
+link:
+	@echo "======================================================================"
+	@echo "🌐 LIEN WEB PUBLIC ACTIF :"
+	@echo "👉 https://997e4b1ca29acc.app.lhr.life"
 	@echo "======================================================================"
 
 install:
